@@ -33,7 +33,7 @@ p{
   font-family: "Patrick Hand SC", sans-serif;
   color: #f5f5f5;
   font-size: 160%;
-  line-height: 150%;
+  line-height: 100%;
   padding: 3%;
   text-indent: 2%;
   text-align: justify;
@@ -206,6 +206,42 @@ aside{
   background-color: #beb9ad;
 }
 
+/*Section container*/
+.section .section-inner {
+  /*background: #fff;*/
+  padding: 30px;
+  background-color: #c3d7df;
+}
+/* Skills Section */
+.skills .intro {
+  margin-bottom: 30px;
+}
+.skills .skillset .item {
+  margin-bottom: 30px;
+}
+.skills .skillset .level-title {
+  font-size: 160%;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 10;
+}
+.skills .skillset .level-title .level-label {
+  color: /*#ccd1d6;*/ #000;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Patrick Hand SC", arial, sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.skills .skillset .level-bar {
+  height: 15px;
+  background: #e8e8e8;
+}
+.skills .skillset .level-bar-inner {
+  height: 15px;
+  background: #66cb8c;
+}
 
 #desktop{
   background-color: #f1aa90;
