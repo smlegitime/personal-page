@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import 'https://fonts.googleapis.com/css?family=Patrick+Hand+SC';
 
 *{
   margin: 0;
@@ -9,7 +9,7 @@
 body{
   background: #f5f5f5;
   color: #67727a;
-  font-family: "Alegreya", sans-serif;
+  font-family: "Patrick Hand SC", sans-serif;
   margin: 0;
 }
 
@@ -30,7 +30,7 @@ h3{
 }
 
 p{
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Patrick Hand SC", sans-serif;
   color: #f5f5f5;
   font-size: 160%;
   line-height: 150%;
@@ -92,7 +92,7 @@ ul{
 }
 
 nav ul li{
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Patrick Hand SC", sans-serif;
   font-size: 150%;
   display: inline-block;
   float: left;
@@ -109,18 +109,46 @@ nav ul li a:hover{
 .current{
   color: #c3d7df;
 }
+.btn,
+a.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-family: 'Patrick Hand SC', arial, sans-serif;
+  padding: 5px 16px;
+  font-weight: bold;
+  margin-top: -8px;
+}
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: #54ba4e;
+  border: 1px solid #54ba4e;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: #49ac43;
+  border: 1px solid #49ac43;
+  color: #fff;
+}
 
 /*Start image slider*/
 #doc{
   margin: 40px 0;
 }
 #content{
-  margin: 0 auto;
-  max-width: 1140px;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
   margin-top:110px;
+
 }
 .blueberry{
-  max-width: 960px;
+  /*min-height: 400px;*/
   margin-top: 110px;
 }
 
@@ -131,13 +159,13 @@ nav ul li a:hover{
   text-align: center;
 }
 
-#html{
+#education{
   background-color: #f1aa90;
 }
-#css{
+#interests{
   background-color: #beb9ad;
 }
-#seo{
+#resume{
   background-color: #aadcd2;
 }
 #social{
@@ -177,6 +205,7 @@ aside{
 #mobile{
   background-color: #beb9ad;
 }
+
 
 #desktop{
   background-color: #f1aa90;
@@ -317,5 +346,10 @@ footer.second p{
   }
   .social i{
     font-size: 180%;
+  }
+  .btn {
+    margin-top: 30px;
+    float: none !important;
+    text-align: center;
   }
 }
